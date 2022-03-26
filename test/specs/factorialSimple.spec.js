@@ -21,7 +21,7 @@ describe('factorialSimple', function() {
     });
     
     it('[duplicate] should return 6 when called with number 3', function() {
-        expect(factorial.factorialSimple(3)).to.be.equal(6);
+        expect(factorial.factorialSimple(4)).to.be.equal(6);
     });
 
     it('should return 362880 when called with number 9', function() {
