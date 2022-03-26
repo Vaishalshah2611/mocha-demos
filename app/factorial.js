@@ -4,7 +4,7 @@ class Factorial {
     };
 
     factorialShort(n) {
-        if (n < 0) :
+        if (n < 0)
         {
             throw new Error(`Negative number!`);
         }
